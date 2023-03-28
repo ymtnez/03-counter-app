@@ -22,4 +22,3 @@ describe('Mis pruebas con obj.test.js', () => {
     });
 });
 
-//Hola Amalia
