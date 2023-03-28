@@ -19,7 +19,7 @@ describe('Pruebas en el archivo demo.test.js', () => {
          *      }
          * Pero esto no es necesario y ya Jest hara eso por nosotros
          */
-        expect(mensaje).toBe(mensaje2); //Es como un ===
+        expect( mensaje ).toBe( mensaje2 ); //Es como un ===
         
     });
 })

@@ -13,7 +13,7 @@ describe('Pruebas en 02-template-string.test.js', () => {
         const saludo = getSaludo(nombre);
 
         //3. Observando el comportamiento
-        expect(saludo).toBe(`Hola ${nombre}`);
+        expect( saludo ).toBe( `Hola ${nombre}` );
 
     });
 
@@ -23,7 +23,7 @@ describe('Pruebas en 02-template-string.test.js', () => {
      */
     test('Debe retornar Hola Carlos si no hay argumento nombre', () => {
         const saludo = getSaludo();
-        expect(saludo).toBe(`Hola Carlos`);
+        expect( saludo ).toBe( `Hola Carlos` );
     })
 
 });
