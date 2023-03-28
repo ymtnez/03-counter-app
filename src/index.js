@@ -11,3 +11,6 @@ const divRoot = document.querySelector('#root');
 //const divRoot = document.getElementById('root');
 
 ReactDOM.render(<CounterApp value = { 10 }/>, divRoot);
+
+
+//desde ymtnez-upr
