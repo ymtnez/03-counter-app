@@ -1,12 +1,7 @@
-// import { heroes } from './data/heroes';
-// import { heroes } from './data/heroes';
-// import heroes, { owners } from '../data/heroes';
+// import heroes, { arrPrueba } from '../data/heroes';
 import heroes from '../data/heroes';
 
-// console.log( owners );
-
-
-
+//console.log( 'arrPrueba'); 
 
 export const getHeroeById = (id) => heroes.find( (heroe) => heroe.id === id );
 

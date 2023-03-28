@@ -8,7 +8,11 @@ describe('Pruebas en 05-funciones', () => {
         };
 
         const user = getUser ();
-       
+        /**
+         * NO puede ser .toBe() pues en la comparacion de
+         * objetos y arreglos se usa .toEqual para
+         * que compare a hasta la referencia.
+         */
         expect( user ).toEqual( userTest );
     });
 
