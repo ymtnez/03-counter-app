@@ -132,7 +132,7 @@ const PrimeraApp = ( {saludo, subtitulo, otra} ) => {
  */
 PrimeraApp.propTypes = {
     saludo: PropTypes.string.isRequired,
-    otra: PropTypes.number.isRequired,
+    otra: PropTypes.number,
 };
 
 /**
