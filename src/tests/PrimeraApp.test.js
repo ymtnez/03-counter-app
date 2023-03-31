@@ -8,5 +8,5 @@ describe('Pruebas en <PrimeraApp />', () => {
 
         expect(getByText(saludo)).toBeInTheDocument();
     
-    })
-})
+    });
+});
